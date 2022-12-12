@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- tittle of the page -->
+    <title>Login Page</title>
+
+    <!-- style sheet of the page  -->
+    <link rel="stylesheet" href="main.css"/>
+
+    <!-- Java script file which used to send data to python file  -->
+    <script src="login.js"></script>
+  </head>
+
+  <body>
+    <!-- Login form of the page  -->
+    <form id="entry-form" onsubmit="return check_pwd()">
+      
+      <h2> Welcome to the Queens Medical Center </h2>
+      <h1>USER LOGIN</h1>
+
+      <input type="username" placeholder="Type Your User Name" name="username" required/>
+      <input type="password" placeholder="Type Your Password" name="password" required/>
+      <input type="submit" value="Sign In"/>
+    </form>
+  </body>
+</html>
